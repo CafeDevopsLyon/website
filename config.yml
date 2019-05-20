@@ -48,7 +48,7 @@ params:
   # About
   About:
     - title: "Cafe DevOps Lyon"
-      img: "img/Cafe_DevOps-Coul_M.png"
+      img: "img/Cafe_DevOps-Coul_L.png"
       imgInRightSide: true
       text:
         - paragraph: "Bienvenue au Cafe DevOps Lyon"
@@ -86,5 +86,8 @@ Si vous voulez participer à l’organisation du meetup ou proposer une session,
       description: "Co-organisateur du meetup"
       img: "img/"
     - name: "Cédric Vanet"
+      description: "Co-organisateur du meetup"
+      img: "img/"
+    - name: "Kutty"
       description: "Co-organisateur du meetup"
       img: "img/"
