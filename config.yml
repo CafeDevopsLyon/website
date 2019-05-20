@@ -1,0 +1,90 @@
+baseurl: "https://cafedevopslyon/"
+title: "Cafe DevOps Lyon"
+canonifyurls: true
+
+# Voir si on utilise GoogleAnalytics
+# GoogleAnalytics: ""
+#
+# privacy:
+#   googleAnalytics:
+#     anonymizeIP: true
+#     respectDoNotTrack: true
+#     useSessionStorage: true
+
+params:
+  # Meetup info
+  Name: "Cafe DevOps Lyon"
+  Year: "2019"
+  Description: "Café DevOps Lyon"
+  City:  "Lyon"
+  State: "France"
+  Twitter: "https://twitter.com/CafeDevOpsLyon"
+  Email: "cafedevopslyon@gmail.com"
+
+  Credits:
+    - name: "Lyon Tech Hub"
+      url: "http://www.lyontechhub.org/#!/"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+#    - icons
+    - about
+    - speakers
+#    - billeterie
+#    - location
+#    - schedule
+#    - sponsors
+#    - partners
+#    - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "À propos"
+    speakers: "L'équipe"
+
+
+
+  # About
+  About:
+    - title: "Cafe DevOps Lyon"
+      img: "img/Cafe_DevOps-Coul_M.png"
+      imgInRightSide: true
+      text:
+        - paragraph: "Bienvenue au Cafe DevOps Lyon"
+        - paragraph: "Des discussions très intéressantes commencent à voir le jour sur Lyon autour la mise en production de développements, la gestion des pannes, les outils d’automatisation, les archi cloud natives et la culture qu’il faut avoir pour aller vers un mode DevOps sur une archi scalable.
+Si vous êtes intéressés par ces sujets, alors abonnez vous au Meetup Café DevOps Lyon
+et au compte twitter @CafeDevOpsLyon
+Si vous voulez participer à l’organisation du meetup ou proposer une session, faites un mail à cafedevopslyon@gmail.com
+"
+
+    # Ici exemple pour faire des paragraphes
+    # - title: ""
+    #   img: "img/"
+    #   text:
+    #     - paragraph: ""
+
+
+  # l'équipe
+  Speakers:
+    - name: "Daniel Gonsalves"
+      description: "Co-organisateur du meetup"
+      img: "img/"
+    - name: "Victor Gallet"
+      description: "Co-organisateur du meetup, Co-organisateur du meetup AlpeCraft"
+      img: "img/"
+    - name: "Franck  Depierre"
+      description: "Co-organisateur du meetup"
+      img: "img/"
+    - name: "Benjamin Dahon"
+      description: "Co-organisateur du meetup"
+      img: "img/"
+    - name: "Raphaël Ruelle"
+      description: "Co-organisateur du meetup"
+      img: "img/raphael_ruelle.jpg"
+    - name: "Guillaume Lacoste"
+      description: "Co-organisateur du meetup"
+      img: "img/"
+    - name: "Cédric Vanet"
+      description: "Co-organisateur du meetup"
+      img: "img/"
