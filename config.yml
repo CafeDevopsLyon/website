@@ -1,5 +1,5 @@
 baseurl: "https://cafedevopslyon/"
-title: "Cafe DevOps Lyon"
+title: "Café DevOps Lyon"
 canonifyurls: true
 
 # Voir si on utilise GoogleAnalytics
@@ -13,7 +13,7 @@ canonifyurls: true
 
 params:
   # Meetup info
-  Name: "Cafe DevOps Lyon"
+  Name: "Café DevOps Lyon"
   Year: "2019"
   Description: "Café DevOps Lyon"
   City:  "Lyon"
@@ -47,7 +47,7 @@ params:
 
   # About
   About:
-    - title: "Cafe DevOps Lyon"
+    - title: "Café DevOps Lyon"
       img: "img/Cafe_DevOps-Coul_L.png"
       imgInRightSide: true
       text:
