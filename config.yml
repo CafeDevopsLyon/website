@@ -49,6 +49,7 @@ params:
   About:
     - title: "Café DevOps Lyon"
       img: "img/Cafe_DevOps-Coul_L.png"
+      alt: "Image représentant le logo Café Devops"
       imgInRightSide: true
       text:
         - paragraph: "Bienvenue au Cafe DevOps Lyon"
