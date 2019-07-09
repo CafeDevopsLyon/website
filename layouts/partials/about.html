@@ -2,7 +2,8 @@
     <div class="container-fluid p-0">
         {{ range .about }}
         <div class="row no-gutters">
-            <div class='col-lg-6 {{ cond (eq .imgInRightSide true) "order-lg-2" "" }} text-white showcase-img' style="background-image: url('{{ .img }}');">
+            <div class='col-lg-6 {{ cond (eq .imgInRightSide true) "order-lg-2" "" }} text-white showcase-img'>
+	    <img src="{{ .img }}" alt="{{ .alt }}">
             </div>
             <div class='col-lg-6 {{ cond (eq .imgInRightSide true) "order-lg-1" "" }} my-auto showcase-text'>
                 <h2>{{ .title }}</h2>

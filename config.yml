@@ -1,5 +1,5 @@
 baseurl: "https://cafedevopslyon/"
-title: "Cafe DevOps Lyon"
+title: "Café DevOps Lyon"
 canonifyurls: true
 
 # Voir si on utilise GoogleAnalytics
@@ -13,7 +13,7 @@ canonifyurls: true
 
 params:
   # Meetup info
-  Name: "Cafe DevOps Lyon"
+  Name: "Café DevOps Lyon"
   Year: "2019"
   Description: "Café DevOps Lyon"
   City:  "Lyon"
@@ -47,8 +47,9 @@ params:
 
   # About
   About:
-    - title: "Cafe DevOps Lyon"
+    - title: "Café DevOps Lyon"
       img: "img/Cafe_DevOps-Coul_L.png"
+      alt: "Image représentant le logo Café Devops"
       imgInRightSide: true
       text:
         - paragraph: "Bienvenue au Cafe DevOps Lyon"
@@ -67,27 +68,35 @@ Si vous voulez participer à l’organisation du meetup ou proposer une session,
 
   # l'équipe
   Speakers:
-    - name: "Daniel Gonsalves"
+    - name: "Daniel Gonçalves"
       description: "Co-organisateur du meetup"
-      img: "img/"
+      img: "img/daniel_goncalves.jpg"
+      alt: "Photo d'un co-organisateur"
     - name: "Victor Gallet"
       description: "Co-organisateur du meetup, Co-organisateur du meetup AlpeCraft"
-      img: "img/"
+      img: "img/victor_gallet.jpg"
+      alt: "Photo d'un co-organisateur"
     - name: "Franck  Depierre"
       description: "Co-organisateur du meetup"
-      img: "img/"
+      img: "img/franck_depierre.jpg"
+      alt: "Photo d'un co-organisateur"
     - name: "Benjamin Dahon"
       description: "Co-organisateur du meetup"
-      img: "img/"
+      img: "img/benjamin_dahon.jpg"
+      alt: "Photo d'un co-organisateur"
     - name: "Raphaël Ruelle"
       description: "Co-organisateur du meetup"
       img: "img/raphael_ruelle.jpg"
+      alt: "Photo d'un co-organisateur"
     - name: "Guillaume Lacoste"
       description: "Co-organisateur du meetup"
-      img: "img/"
+      img: "img/guillaume_lacoste.jpg"
+      alt: "Photo d'un co-organisateur"
     - name: "Cédric Vanet"
       description: "Co-organisateur du meetup"
-      img: "img/"
-    - name: "Kutty"
+      img: "img/cedric_vanet.jpg"
+      alt: "Photo d'un co-organisateur"
+    - name: "Quentin Le Baron"
       description: "Co-organisateur du meetup"
-      img: "img/"
+      img: "img/quentin_le_baron.png"
+      alt: "Photo d'un co-organisateur"
