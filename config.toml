@@ -1,4 +1,4 @@
-baseurl = "https://cafedevopslyon/"
+baseurl = "https://cafedevops.org"
 title = "Café DevOps Lyon"
 canonifyurls = true
 paginate = 10
