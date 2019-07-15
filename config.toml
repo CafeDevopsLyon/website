@@ -1,0 +1,32 @@
+baseurl = "https://cafedevopslyon/"
+title = "Café DevOps Lyon"
+canonifyurls = true
+paginate = 10
+languageCode = "fr-FR"
+copyright = "Code released under the Apache 2.0 license."
+
+[author]
+    name = "Café DevOps Lyon"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Background = "/img/banner.png"
+  Description = "Discussion, talks, et échanges autour des problématiques DevOps"
+  Author = "Café DevOps Lyon"
+  email = "cafedevopslyon@gmail.com"
+#  customCSS = ["/css/global.css"]
+
+[[params.social]]
+    title = "twitter"
+    url = "https://twitter.com/CafeDevOpsLyon"
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+
+# Désactivation des archives, possibilité de l'utiliser pour gérer les sessions passées
+#[[menu.main]]
+#  name = "Archives"
+#  url = "/posts/"
+#  weight = -180

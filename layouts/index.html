@@ -1,62 +1,50 @@
-<!doctype html>
-<html itemscope itemtype="http://schema.org/Event">
-<head>
-  <title itemprop="name">{{ .Site.Params.Name }}</title>
+{{ partial "header.html" .}}
 
-  <meta charset="utf-8">
-  <meta name="author" content="{{ .Site.Params.Name }}" />
-  <meta name="description" content="{{ .Site.Params.Description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Page Header -->
+    <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/{{ .Site.Params.background }}')">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+           <div class="site-heading">
+             <!--<h1>{{ .Site.Title }}</h1>-->
+             <hr class="small">
+             {{ with .Site.Params.Description }}<span class="subheading"></span>{{ end }}
+           </div>
+         </div>
+       </div>
+     </div>
+    </header>
 
-  {{ hugo.Generator }}
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
+    <!-- Main Content -->
+    <div class="container">
+            <div class="lead">
+                Vous désirez progresser dans le techniques et outils permettant d'opérer un service en ligne ? Rejoignez-nous!
+            </div>
+            <div class="lead">
+                Café DevOps Lyon organise des échanges visant à progresser sur les aspects opérationnels cloud, déploiement continu et scalabilité des infrastructures.
+                Nous sommes passionnés de technologies de production informatique avancées et gestion des incidents de production.
+            </div>
+            <div class="lead">
+                Café DevOps Lyon facilite les échanges à Lyon, sur ces domaines en organisant des événements, rencontres informelles autour d’un verre, conférence sur des sujets techniques,
+                Nous ne nous concentrons pas sur une technologie en particulier, mais nous mettons au centre des meetups dédiés à chaque technologie. Pour les domaines d’organisation humaine autour du devops, nous préférons soutenir d’autres meetup spécialisés dans ce domaine au lieu d’essayer de reproduire ce qu’ils font déjà aujourd’hui avec succès.
+            </div>
+            <div class="lead">
+                Rejoignez-nous pour parler orchestrateur, monitoring, résilience, …..
+            </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <!--{{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}-->
+          <!--{{ range first $posts (where .Data.Pages "Type" "posts") }}-->
+              <!--{{ .Render "summary"}}-->
+          <!--{{ end }}-->
+          <!-- Pager -->
+          <!--<ul class="pager">-->
+            <!--<li class="next">-->
+              <!--<a href="{{ .Site.BaseURL }}/posts/">Older Posts &rarr;</a>-->
+            <!--</li>-->
+          <!--</ul>-->
+        </div>
+      </div>
+    </div>
 
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <!-- Custom fonts for this template -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-  {{ $styles := resources.Get "scss/landing-page.scss" | toCSS | minify }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-
-</head>
-<body>
-
-  <!-- Navigation -->
-  {{ partial "nav.html" . }}
-
-  <!-- Masthead -->
-  {{ partial "header.html" .Site.Params }}
-
-  {{ range $section := .Site.Params.Sections }}
-    <section class="{{ $section }}" id="{{ $section }}">
-      {{ partial $section $.Site.Params }}
-    </section>
-  {{ end }}
-
-  <!-- Footer -->
-  {{ partial "footer.html" .Site.Params }}
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
-</html>
+{{ partial "footer.html" .}}
