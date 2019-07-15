@@ -13,7 +13,7 @@ copyright = "Code released under the Apache 2.0 license."
   Background = "/img/banner.png"
   Description = "Discussion, talks, et échanges autour des problématiques DevOps"
   Author = "Café DevOps Lyon"
-  email = "cafedevopslyon@gmail.com"
+  email = "contact@cafedevops.org"
 #  customCSS = ["/css/global.css"]
 
 [[params.social]]
