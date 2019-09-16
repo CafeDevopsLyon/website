@@ -1,0 +1,37 @@
+{{ partial "header.html" .}}
+
+    <!-- Page Header -->
+    <header class="intro-header" >
+    </header>
+    <div class="container">
+      <h1>{{ .Params.name }}</h1>
+      <div class="lead">
+          {{ .Content }}
+      </div>
+      <p>
+        {{ if .Params.siteURL }}
+          Site personelle: <a href="{{ .Params.siteURL }}" target="_blank">Link</a> <br  />
+        {{ end }}
+        {{ if .Params.twitter }}
+          {{ with .Params.twitter }}
+            <p class="lead">
+              <a href="https://twitter.com/{{ substr . 1 }}">
+                Twitter: {{ $.Params.name }} ({{ . }})
+              </a>
+            </p>
+          {{ end }}
+        {{ end }}
+        <a href="{{ .Params.linkedin }}" target="_blank">
+          <img src="/img/LinkedIn_Logo.png" width="75">
+        </a>
+      </p>
+
+      <h2>Articles</h2>
+      <ul>
+      {{ range .Data.Pages }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
+
+{{ partial "footer.html" .}}

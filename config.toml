@@ -20,10 +20,16 @@ copyright = "Code released under the Apache 2.0 license."
     title = "twitter"
     url = "https://twitter.com/CafeDevOpsLyon"
 
+[taxonomies]
+  speaker = "speakers"
+
 [[menu.main]]
   name = "home"
   url = "/"
   weight = -200
+[[menu.main]]
+ name = "Archives"
+ url = "/posts/"
 
 # Désactivation des archives, possibilité de l'utiliser pour gérer les sessions passées
 #[[menu.main]]
