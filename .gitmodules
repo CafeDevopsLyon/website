@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:CafeDevopsLyon/cafedevopslyon.github.io.git
-	branch = master
