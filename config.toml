@@ -3,6 +3,7 @@ title = "Café DevOps Lyon"
 canonifyurls = true
 paginate = 10
 languageCode = "fr-FR"
+DefaultContentLanguage = "fr"
 copyright = "Code released under the Apache 2.0 license."
 
 [author]
