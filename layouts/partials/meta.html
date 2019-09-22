@@ -1,8 +1,20 @@
 {{ if .Site.Params.ShowReadTime }}
   A {{ .ReadingTime }} minute read,
 {{ end }}
-Posted by <a href="#">{{ .Site.Params.Author }}</a> on {{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}
-<br />
-{{ partial "categories.html" .}}
-<br />
-{{ partial "tags.html" .}}
+  <div class="post-preview">
+   <h3 class="post-preview">
+     <a href="{{ .Permalink }}">{{ .Title }}</a> <br/>
+   </h3>
+   <p class="lead">
+    Speakers:
+     {{- range .Params.Speakers }}
+       {{- with $.Site.GetPage "taxonomyTerm" (printf "speakers/%s" (urlize .)) }}
+         <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+       {{ end }}
+     {{ end }}
+     <br />
+     le {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }} <br />
+     {{ partial "tags.html" .}}
+  </p>
+  </div>
+  <hr  />

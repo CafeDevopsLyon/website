@@ -61,10 +61,13 @@ hugo
 
 *Deploy procedure*:
 ```shell
-# Get latest modifications
+git add .  # or git add -p
 git pull
-
 # Resolve conflicts
+
+git commit -m <commit-msg>
+git push origin master
+
 
 # Run deploy script
 .deploy.sh
@@ -72,10 +75,12 @@ git pull
 
 *Manual procedure to deploy*:
 ```shell
-# Get latest modifications
+git add .  # or git add -p
 git pull
-
 # Resolve conflicts
+
+git commit -m <commit-msg>
+git push origin master
 
 # Build the project.
 hugo
