@@ -11,7 +11,7 @@
                      {{ end }}
                      <br />
                      <time class="post-date" datetime="{{ .Date.Format "2019-02-07T19:00:00+02:00" | safeHTML }}">
-                       Article publié le {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) | safeHTML  }} {{ .Date.Year }}
+                      {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) | safeHTML  }} {{ .Date.Year }}
                      </time>
                     <br />
                      {{ partial "tags.html" .}}
