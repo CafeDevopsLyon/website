@@ -50,11 +50,11 @@ More details about the hugo install are available on [the official website](http
 
 ## Use it
 
-*Run hugo server*:  
+*Run hugo server localy*:  
 ```shell
 hugo server -D
 ```
-*Build website*:  
+*Build website to public folder*:  
 ```shell
 hugo
 ```

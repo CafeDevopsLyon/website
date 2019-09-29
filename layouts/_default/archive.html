@@ -3,7 +3,7 @@
      <a href="{{ .Permalink }}">{{ .Title }}</a> <br/>
    </h3>
    <p class="lead">
-    Speakers:
+    Intervenants:
      {{- range .Params.Speakers }}
        {{- with $.Site.GetPage "taxonomyTerm" (printf "speakers/%s" (urlize .)) }}
          <a href="{{ .Permalink }}">{{ .Params.name }}</a>

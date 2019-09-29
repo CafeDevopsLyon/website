@@ -31,6 +31,9 @@ copyright = "Code released under the Apache 2.0 license."
 [[menu.main]]
  name = "Archives"
  url = "/posts/"
+[[menu.main]]
+  name = "Remerciements"
+  url = "/remerciement/"
 
 # Désactivation des archives, possibilité de l'utiliser pour gérer les sessions passées
 #[[menu.main]]

@@ -1,0 +1,49 @@
+{{ partial "header.html" .}}
+
+    <!-- Page Header -->
+    <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/{{ .Site.Params.background }}')">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+           <div class="site-heading">
+             <!--<h1>{{ .Site.Title }}</h1>-->
+             <hr class="small">
+             {{ with .Site.Params.Description }}<span class="subheading"></span>{{ end }}
+           </div>
+         </div>
+       </div>
+     </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="post-preview">
+        <h2>Remerciements</h2>
+        <p>
+          Nous sommes profondément reconnaissants pour toutes les personnes qui nous aident à chaque nouvel événement, <br>
+          les intervenants, mais aussi les écoles et sociétés qui nous accueillent, graphiste, etc. Cette page leur est dédiée.<br>
+        </p>
+        <ul>
+          <li><a href="https://ixda-lyon.fr">Marion Berthillier</a></li>
+          <li><a href="https://www.epitech.eu/fr/">Epitech Lyon</a></li>
+          <li><a href="https://link-value.fr/fr">Link value</a></li>
+          <li><a href="https://www.peaks.fr/fr/">Peaks</a></li>
+        </ul>
+      </div>
+      <p>Les intervenants:</p>
+      <ul>
+      {{- range .Params.Speakers }}
+        {{- with $.Site.GetPage "taxonomyTerm" (printf "speakers/%s" (urlize .)) }}
+          <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+        {{ end }}
+      {{ end }}
+
+      </ul>
+      <hr  />
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        </div>
+      </div>
+    </div>
+
+{{ partial "footer.html" .}}
