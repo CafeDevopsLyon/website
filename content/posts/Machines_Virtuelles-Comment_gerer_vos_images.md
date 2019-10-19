@@ -7,7 +7,7 @@ description: ""
 tags: ["Virtualisation"]
 ---
 
-<h4>Support pdf: <a href="/pdf/machine_virtuelles.pdf" target="\_blank">Lien</a></h4>  
+<a href="/pdf/machine_virtuelles.pdf" target="\_blank">Support de présentation</a>  
 
 Bien qu'aujourd'hui beaucoup de gens utilisent le cloud, je trouve que l'on entend assez peu parler de la  
 construction des images des machines virtuelles.  
