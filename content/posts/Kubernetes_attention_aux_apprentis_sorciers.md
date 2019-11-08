@@ -6,7 +6,7 @@ speakers:
 tags: ["DevOps"]
 ---
 
-<a href="/pdf/Kubernetes__attention_aux_apprentis_magiciens.pdf" target="\_blank">Support de présentation</a>  
+<a href="/pdf/Kubernetes_attention_aux_apprentis_magiciens.pdf" target="\_blank">Support de présentation</a>  
 
 
 La promesse de kube est belle : Déployer et manager vos applications. Mais est-ce réellement si simple ?
