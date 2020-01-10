@@ -10,7 +10,7 @@ tags: ["Devops", "Performance", "Expertise"]
 
 ```
 le support est sous licence Creative Commons:
-- Signature de l’auteur obligatoire.
+- Citer l'auteur.
 - Interdiction de tirer un profit commercial de l’œuvre sans autorisation de l'auteur.
 - Partage de l’œuvre, avec obligation de rediffuser selon la même licence.
 ```  

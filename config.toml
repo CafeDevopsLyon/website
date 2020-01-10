@@ -21,6 +21,11 @@ copyright = "Code released under the Apache 2.0 license."
     title = "twitter"
     url = "https://twitter.com/CafeDevOpsLyon"
 
+[[params.social]]
+    title = "meetup"
+    url = "https://www.meetup.com/fr-FR/cafe-devops-lyon"
+
+
 [taxonomies]
   speaker = "speakers"
 
