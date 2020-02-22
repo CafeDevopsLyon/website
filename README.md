@@ -146,6 +146,8 @@ git push origin master
   Content / description of the speaker.
   ```
 
+then add speaker name into `content/remerciement/`
+
 ## References
 
 - [Cafedevops Website](https://cafedevops.org)

@@ -33,9 +33,11 @@ copyright = "Code released under the Apache 2.0 license."
   name = "home"
   url = "/"
   weight = -200
+
 [[menu.main]]
  name = "Archives"
  url = "/posts/"
+ 
 [[menu.main]]
   name = "Remerciements"
   url = "/remerciement/"

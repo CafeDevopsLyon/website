@@ -5,4 +5,8 @@ speakers:
   - Christophe Monnier
   - Mathieu corbin
   - Pascal Martin
+  - Louis Tournayre
+  - Olivier Boukili
+  - Thibault Lecoq
+  - Quentin Le Baron
 ---

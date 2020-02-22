@@ -1,9 +1,7 @@
 ---
 name: "Olivier Boukili"
+twitter: "@olivierboukili"
 linkedin: ""
 siteURL: ""
-twitter: "@olivierboukili"
 ---
-
-
 Sysadmin / Cloud engineer
