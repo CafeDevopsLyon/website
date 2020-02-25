@@ -7,8 +7,14 @@ speakers:
 tags: ["Devops", "Ansible", "test"]
 ---
 
-<a href="/pdf/Molecule_full_tester_of_your_need.pdf" target="\_blank">Support de présentation</a>  
-
+<a href="/pdf/Molecule_full_tester_of_your_need.pdf" target="\_blank">Support de présentation</a> 
+ 
+```
+le support est sous licence Creative Commons:
+- Citer l'auteur.
+- Interdiction de tirer un profit commercial de l’œuvre sans autorisation de l'auteur.
+- Partage de l’œuvre, avec obligation de rediffuser selon la même licence.
+```  
 Prérequis : Avoir manipulé Ansible et les rôle Ansible.
 
 Le sujet de cette session sera de présenter dans une première partie l'outil Molecule, pourquoi et comment l'utiliser pour tester du code ansible (rôles, playbooks, modules, filters).
