@@ -7,8 +7,8 @@ speakers:
 tags: ["Devops", "Ansible", "test"]
 ---
 
-<a href="/pdf/Molecule_full_tester_of_your_need.pdf" target="\_blank">Support de présentation</a> 
- 
+[Support de présentation](/pdf/Molecule_full_tester_of_your_need.pdf)
+
 ```
 le support est sous licence Creative Commons:
 - Citer l'auteur.

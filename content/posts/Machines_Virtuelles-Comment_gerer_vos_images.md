@@ -7,7 +7,7 @@ description: ""
 tags: ["Virtualisation"]
 ---
 
-<a href="/pdf/machine_virtuelles.pdf" target="\_blank">Support de présentation</a>  
+[Support de présentation](/pdf/CafeDevOps2021_IaaS.pdf)
 
 Bien qu'aujourd'hui beaucoup de gens utilisent le cloud, je trouve que l'on entend assez peu parler de la  
 construction des images des machines virtuelles.  

@@ -35,7 +35,7 @@ copyright = "Code released under the Apache 2.0 license."
   weight = -200
 
 [[menu.main]]
- name = "Archives"
+ name = "Meetup"
  url = "/posts/"
  
 [[menu.main]]

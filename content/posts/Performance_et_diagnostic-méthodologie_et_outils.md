@@ -6,7 +6,7 @@ speakers:
 tags: ["Devops", "Performance", "Expertise"]
 ---
 
-<a href="/pdf/Methodologie_et_outils_diagnostic-cafe_devops_lyon.pdf" target="\_blank">Support de présentation</a>  
+[Support de présentation](/pdf/Methodologie_et_outils_diagnostic-cafe_devops_lyon.pdf)
 
 ```
 le support est sous licence Creative Commons:

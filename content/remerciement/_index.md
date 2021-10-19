@@ -9,4 +9,5 @@ speakers:
   - Olivier Boukili
   - Thibault Lecoq
   - Quentin Le Baron
+  - David Aparicio
 ---

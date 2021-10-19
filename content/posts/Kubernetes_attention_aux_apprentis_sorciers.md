@@ -6,8 +6,7 @@ speakers:
 tags: ["DevOps"]
 ---
 
-<a href="/pdf/Kubernetes_attention_aux_apprentis_magiciens.pdf" target="\_blank">Support de présentation</a>  
-
+[Support de présentation](/pdf/Kubernetes_attention_aux_apprentis_magiciens.pdf)
 
 La promesse de kube est belle : Déployer et manager vos applications. Mais est-ce réellement si simple ?
 Dans cette présentation je vous partagerai 5 points qui me semblent importants avant de basculer sous K8S
