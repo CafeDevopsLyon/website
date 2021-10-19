@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/CafeDevopsLyon/cafedevopslyon.github.io.git
+[submodule "cafedevopslyon.github.io"]
+	path = cafedevopslyon.github.io
+	url = https://github.com/CafeDevopsLyon/cafedevopslyon.github.io.git
