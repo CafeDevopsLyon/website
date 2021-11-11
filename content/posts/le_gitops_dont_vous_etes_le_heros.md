@@ -1,6 +1,6 @@
 ---
 title: "Le GitOps dont vous êtes le héros"
-date: 2021-10-09T17:00:00+02:00
+date: 2021-11-09T17:00:00+02:00
 speakers:
   - Louis Tournayre
 tags: ["DevOps"]
