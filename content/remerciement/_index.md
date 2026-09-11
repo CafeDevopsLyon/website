@@ -10,4 +10,6 @@ speakers:
   - Thibault Lecoq
   - Quentin Le Baron
   - David Aparicio
+  - Paul Alexandre Chretien
+  - Cafer Dingil
 ---
