@@ -10,7 +10,7 @@
        {{ end }}
      {{ end }}
      <br />
-     le {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}  <br />
+     le {{ .Date.Day }} {{ index hugo.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}  <br />
      {{ partial "tags.html" .}}
   </p>
 </div>
