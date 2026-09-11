@@ -16,4 +16,4 @@ J’utilise exclusivement Linux depuis plusieurs années (mais découvrir *BSD e
 
 J’ai travaillé plusieurs années en tant qu’administrateur système sur des problématiques de déploiement (automatisation de tous les aspects d’une infrastructure, déploiement continu des application…​), de monitoring et de gestion des logs, de systèmes distribués et d’architecture en général.
 
-Je travaille aujourd’hui chez <a href="https://twitter.com/Exoscale" target="\_blank">Exoscale</a>  en tant qu’ingénieur système où je fais principalement du Clojure, du Go et de l’ops.
+Je travaille aujourd’hui chez [Exoscale](https://twitter.com/Exoscale)  en tant qu’ingénieur système où je fais principalement du Clojure, du Go et de l’ops.
