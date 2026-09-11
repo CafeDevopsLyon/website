@@ -7,7 +7,7 @@ tags: ["Devops", "Kubernetes"]
 ---
 
 
-<a href="https://www.slideshare.net/olivierBOUKILI/handling-kubernetes-resources" target="\_blank">Support de présentation</a>  
+[Support de présentation](https://www.slideshare.net/olivierBOUKILI/handling-kubernetes-resources)  
 
 Talk d’Olivier Boukili, Cloud & System Engineer
 REX sur l'utilisation de plusieurs outils, Terraform, Helm, Kustomize, Argocd et les raisons qui ont motivé leur adoption ou leur rejet.
