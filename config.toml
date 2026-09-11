@@ -2,8 +2,7 @@ baseurl = "https://cafedevops.org"
 title = "Café DevOps Lyon"
 canonifyurls = true
 paginate = 10
-languageCode = "fr-FR"
-DefaultContentLanguage = "fr"
+defaultContentLanguage = "fr"
 copyright = "Code released under the Apache 2.0 license."
 
 [author]
@@ -16,6 +15,15 @@ copyright = "Code released under the Apache 2.0 license."
   Author = "Café DevOps Lyon"
   email = "contact@cafedevops.org"
 #  customCSS = ["/css/global.css"]
+
+[languages]
+  [languages.fr]
+    direction = 'ltr'
+    disabled = false
+    label = 'Français'
+    locale = 'fr-FR'
+    title = 'Café DevOps Lyon'
+    weight = 0
 
 [[params.social]]
     title = "twitter"
