@@ -6,7 +6,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 git submodule update --recursive
 
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo --buildFuture # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Copie de CNAME
 cp CNAME public/
