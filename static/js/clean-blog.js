@@ -117,7 +117,7 @@ $('#name').focus(function() {
 
         var $siblingElements = this;
 
-        var uniqueForms = $.unique(
+        var uniqueForms = $.uniqueSort(
           $siblingElements.map( function () {
             return $(this).parents("form")[0];
           }).toArray()
